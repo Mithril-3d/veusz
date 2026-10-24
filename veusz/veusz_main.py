@@ -20,6 +20,7 @@
 
 '''Main Veusz executable.'''
 
+import os
 import sys
 import signal
 import argparse
@@ -314,9 +315,15 @@ class VeuszApp(qt.QApplication):
         if not txfile:
             loc = qt.QLocale.system().name()
             if loc.startswith('ja'):
-                cand = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'translation', 'veusz_ja.qm')
-                if os.path.exists(cand):
-                    txfile = cand
+                for base in (
+                    utils.resourceDirectory,
+                    os.path.dirname(os.path.dirname(__file__)),
+                    os.path.dirname(__file__),
+                ):
+                    cand = os.path.join(base, 'translation', 'veusz_ja.qm')
+                    if os.path.exists(cand):
+                        txfile = cand
+                        break
 
         if txfile:
             self.trans = qt.QTranslator()

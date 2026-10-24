@@ -1227,32 +1227,44 @@ class TreeEditDock(qt.QDockWidget):
                 return
             try:
                 export.finish()
-                clipboard = qt.QApplication.clipboard()
-                data = qt.QMimeData()
-
-                # set images to QMimeData
-                for ext, mimes in exts.items():
-                    try:
-                        fname = os.path.join(tmpdir.name, 'tmp.{}'.format(ext))
-                        with open(fname, 'rb') as fo:
-                            bs = fo.read()
-                        for mime in mimes:
-                            data.setData(mime, bs)
-                    except:
-                        pass
-
-                # set QMimeData to clipboard
-                clipboard.setMimeData(data)
-
-                # On Windows, register native CF_ENHMETAFILE (14) to clipboard
-                if export_emf:
-                    emf_fname = os.path.join(tmpdir.name, 'tmp.emf')
-                    if os.path.isfile(emf_fname):
+                # Read generated image bytes
+                img_bytes = {}
+                for ext in exts:
+                    fname = os.path.join(tmpdir.name, 'tmp.{}'.format(ext))
+                    if os.path.isfile(fname):
                         try:
-                            from ..utils import windows_clipboard
-                            windows_clipboard.copy_emf_file_to_clipboard(emf_fname)
+                            with open(fname, 'rb') as fo:
+                                img_bytes[ext] = fo.read()
                         except Exception:
                             pass
+
+                # On Windows, use native Windows clipboard for maximum application compatibility
+                # (CF_ENHMETAFILE for MS Office vector, CF_DIB for Paint, PNG for modern apps)
+                copied_native = False
+                if sys.platform == 'win32':
+                    try:
+                        from ..utils import windows_clipboard
+                        copied_native = windows_clipboard.copy_images_to_clipboard(
+                            emf_bytes=img_bytes.get('emf'),
+                            png_bytes=img_bytes.get('png'),
+                            bmp_bytes=img_bytes.get('bmp')
+                        )
+                    except Exception:
+                        copied_native = False
+
+                # Fallback or non-Windows: use standard Qt QMimeData
+                if not copied_native:
+                    clipboard = qt.QApplication.clipboard()
+                    data = qt.QMimeData()
+                    for ext, mimes in exts.items():
+                        bs = img_bytes.get(ext)
+                        if bs:
+                            for mime in mimes:
+                                data.setData(mime, bs)
+                    png_fname = os.path.join(tmpdir.name, 'tmp.png')
+                    if os.path.isfile(png_fname):
+                        data.setImageData(qt.QImage(png_fname))
+                    clipboard.setMimeData(data)
 
                 tmpdir.cleanup()
 

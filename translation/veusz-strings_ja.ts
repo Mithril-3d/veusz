@@ -8040,22 +8040,22 @@ Is this ok? This choice can be changed in 環境設定.</translation>
     <message>
         <location filename="./veusz/windows/plotwindow.py" line="412" />
         <source>Move to the previous page</source>
-        <translation>Move to the 前の ページ</translation>
+        <translation>前のページへ移動</translation>
     </message>
     <message>
         <location filename="./veusz/windows/plotwindow.py" line="412" />
         <source>&amp;Previous page</source>
-        <translation>&amp;Previous ページ</translation>
+        <translation>前のページ(&amp;P)</translation>
     </message>
     <message>
         <location filename="./veusz/windows/plotwindow.py" line="416" />
         <source>Move to the next page</source>
-        <translation>Move to the 次の ページ</translation>
+        <translation>次のページへ移動</translation>
     </message>
     <message>
         <location filename="./veusz/windows/plotwindow.py" line="416" />
         <source>&amp;Next page</source>
-        <translation>&amp;Next ページ</translation>
+        <translation>次のページ(&amp;N)</translation>
     </message>
     <message>
         <location filename="./veusz/windows/plotwindow.py" line="420" />
@@ -8150,22 +8150,22 @@ Is this ok? This choice can be changed in 環境設定.</translation>
     <message>
         <location filename="./veusz/windows/plotwindow.py" line="722" />
         <source>reset axes</source>
-        <translation>reset 軸</translation>
+        <translation>軸をリセット</translation>
     </message>
     <message>
         <location filename="./veusz/windows/plotwindow.py" line="1145" />
         <source>Force update</source>
-        <translation>Force 更新する</translation>
+        <translation>強制再描画</translation>
     </message>
     <message>
         <location filename="./veusz/windows/plotwindow.py" line="1148" />
         <source>Close full screen</source>
-        <translation>閉じる full screen</translation>
+        <translation>全画面表示を終了</translation>
     </message>
     <message>
         <location filename="./veusz/windows/plotwindow.py" line="1153" />
         <source>Updates</source>
-        <translation>アップデート</translation>
+        <translation>自動更新設定</translation>
     </message>
     <message>
         <location filename="./veusz/windows/plotwindow.py" line="1169" />
@@ -8175,7 +8175,7 @@ Is this ok? This choice can be changed in 環境設定.</translation>
     <message>
         <location filename="./veusz/windows/plotwindow.py" line="1421" />
         <source>Full screen toolbar</source>
-        <translation>Full screen ツールバー</translation>
+        <translation>全画面ツールバー</translation>
     </message>
     <message>
         <location filename="./veusz/windows/plotwindow.py" line="1423" />
@@ -10530,12 +10530,12 @@ to be loaded.</translation>
     <message>
         <location filename="./veusz/plugins/toolsplugin.py" line="155" />
         <source>Invert colormap</source>
-        <translation>反転カラーマップ</translation>
+        <translation>カラーマップを反転</translation>
     </message>
     <message>
         <location filename="./veusz/plugins/toolsplugin.py" line="157" />
         <source>Randomize order</source>
-        <translation>ランダム化次数・順序</translation>
+        <translation>順序をランダム化</translation>
     </message>
     <message>
         <location filename="./veusz/plugins/toolsplugin.py" line="159" />
@@ -10595,7 +10595,7 @@ to be loaded.</translation>
     <message>
         <location filename="./veusz/plugins/toolsplugin.py" line="321" />
         <source>Swap two colors</source>
-        <translation>入れ替え two 色</translation>
+        <translation>2つの色を入れ替え</translation>
     </message>
     <message>
         <location filename="./veusz/plugins/toolsplugin.py" line="322" />
@@ -10620,17 +10620,17 @@ to be loaded.</translation>
     <message>
         <location filename="./veusz/plugins/toolsplugin.py" line="372" />
         <source>Replace text</source>
-        <translation>置換テキスト</translation>
+        <translation>テキストの置換</translation>
     </message>
     <message>
         <location filename="./veusz/plugins/toolsplugin.py" line="374" />
         <source>Search and replace text in settings</source>
-        <translation>Search and replace テキスト in 設定</translation>
+        <translation>設定内のテキストを検索・置換</translation>
     </message>
     <message>
         <location filename="./veusz/plugins/toolsplugin.py" line="375" />
         <source>Searches for text in a setting and replaces it</source>
-        <translation>Searches for テキスト in a 設定 and replaces it</translation>
+        <translation>設定内のテキストを検索し、別のテキストに置換します</translation>
     </message>
     <message>
         <location filename="./veusz/plugins/toolsplugin.py" line="387" />
@@ -10697,7 +10697,7 @@ Hint: Use a "*" in the 名前 of a replacement データセット to match multi
     <message>
         <location filename="./veusz/plugins/toolsplugin.py" line="611" />
         <source>Increase font sizes</source>
-        <translation>Increase フォント サイズ</translation>
+        <translation>フォントサイズを拡大</translation>
     </message>
     <message>
         <location filename="./veusz/plugins/toolsplugin.py" line="612" />
@@ -10707,14 +10707,14 @@ Hint: Use a "*" in the 名前 of a replacement データセット to match multi
     <message>
         <location filename="./veusz/plugins/toolsplugin.py" line="620" />
         <source>Decrease font sizes</source>
-        <translation>Decrease フォント サイズ</translation>
+        <translation>フォントサイズを縮小</translation>
     </message>
     <message>
         <location filename="./veusz/plugins/toolsplugin.py" line="621" />
         <source>Decrease font sizes by number of points given</source>
         <translation>Decrease フォント サイズ by 数値 of 点 given</translation>
     </message>
-</context>
+<message><source>Replace text…</source><translation>テキストの置換…</translation></message><message><source>Replace text...</source><translation>テキストの置換…</translation></message><message><source>Increase font sizes…</source><translation>フォントサイズを拡大…</translation></message><message><source>Increase font sizes...</source><translation>フォントサイズを拡大…</translation></message><message><source>Decrease font sizes…</source><translation>フォントサイズを縮小…</translation></message><message><source>Decrease font sizes...</source><translation>フォントサイズを縮小…</translation></message><message><source>Delete hidden</source><translation>非表示の項目を削除</translation></message><message><source>Delete hidden widgets</source><translation>非表示のウィジェットを削除</translation></message><message><source>Mass rename</source><translation>一括名前変更</translation></message><message><source>Mass rename widgets</source><translation>ウィジェットの一括名前変更</translation></message></context>
 <context>
     <name>TreeEditWindow</name>
     <message>
@@ -10800,12 +10800,12 @@ Hint: Use a "*" in the 名前 of a replacement データセット to match multi
     <message>
         <location filename="./veusz/windows/treeeditwindow.py" line="986" />
         <source>Copy the current page as svg image</source>
-        <translation>コピーする the 現在の ページ as svg 画像</translation>
+        <translation>現在のページを画像（EMF）としてクリップボードにコピー</translation>
     </message>
     <message>
         <location filename="./veusz/windows/treeeditwindow.py" line="986" />
         <source>&amp;Copy as Image</source>
-        <translation>&amp;Copy as 画像</translation>
+        <translation>画像としてコピー (EMF)(&amp;C)</translation>
     </message>
     <message>
         <location filename="./veusz/windows/treeeditwindow.py" line="990" />
@@ -10964,7 +10964,7 @@ Linked to: %s</source>
         <source>make default style</source>
         <translation>make defaultのスタイル</translation>
     </message>
-</context>
+<message><source>Copy current page to clipboard as image (EMF on Windows)</source><translation>現在のページを画像（EMF）としてクリップボードにコピー</translation></message></context>
 <context>
     <name>Tutorial</name>
     <message>
@@ -10981,18 +10981,13 @@ menu.&lt;/p&gt;
 
 &lt;p class="usercmd"&gt;Press Next to go to the next step&lt;/p&gt;
 </source>
-        <translation>
-&lt;h1&gt;Welcome to Veusz!&lt;/h1&gt;
+        <translation>&lt;h1&gt;Veusz へようこそ！&lt;/h1&gt;
 
-&lt;p&gt;This tutorial aims to get you working with Veusz as quickly as
-possible.&lt;/p&gt;
+&lt;p&gt;このチュートリアルでは、Veusz の基本的な使い方を素早く学べます。&lt;/p&gt;
 
-&lt;p&gt;You can 閉じる this tutorial at any time using the 閉じる button to
-the top-right of this panel. The tutorial can be replayed in the help
-menu.&lt;/p&gt;
+&lt;p&gt;このチュートリアルは、パネル右上の閉じるボタンからいつでも終了できます。また、ヘルプメニューからいつでも再開できます。&lt;/p&gt;
 
-&lt;p class="usercmd"&gt;Press 次の to go to the 次の ステップ&lt;/p&gt;
-</translation>
+&lt;p class="usercmd"&gt;「次へ」ボタンを押して進んでください。&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="./veusz/windows/tutorial.py" line="103" />
@@ -11007,17 +11002,11 @@ and for plotting functions.&lt;/p&gt;
 &lt;p&gt;There are also special widgets. The grid widget arranges graphs
 inside it in a grid arrangement.&lt;/p&gt;
 </source>
-        <translation>
-&lt;h1&gt;ウィジェット&lt;/h1&gt;
+        <translation>&lt;h1&gt;ウィジェット&lt;/h1&gt;
 
-&lt;p&gt;プロット in Veusz are constructed from &lt;i&gt;ウィジェット&lt;/i&gt;.  Different
-types of ウィジェット are used to make different parts of a プロット. For
-example, there are ウィジェット for 軸, for a グラフ, for プロット中 data
-and for プロット中 関数.&lt;/p&gt;
+&lt;p&gt;Veusz のプロットは「&lt;b&gt;ウィジェット&lt;/b&gt;」を組み合わせて作成されます。プロットの各要素を作るために、様々な種類のウィジェットが用意されています。例えば、座標軸、グラフ、データプロット、関数プロットなどのウィジェットがあります。&lt;/p&gt;
 
-&lt;p&gt;There are also special ウィジェット. The グリッド ウィジェット arranges グラフ
-inside it in a グリッド arrangement.&lt;/p&gt;
-</translation>
+&lt;p&gt;また、特別なウィジェットもあります。例えばグリッドウィジェットは、複数のグラフを格子状（グリッド）に整列して配置できます。&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="./veusz/windows/tutorial.py" line="118" />
@@ -11031,16 +11020,9 @@ can have several graphs on the page, optionally arranged in a
 grid. Several plotting widgets and axis widgets can be put in a
 graph.&lt;/p&gt;
 </source>
-        <translation>
-&lt;p&gt;ウィジェット can often be placed inside each other. For instance, a グラフ
-ウィジェット is placed in a ページ ウィジェット or a グリッド ウィジェット. プロット中 ウィジェット
-are placed in グラフ ウィジェット.&lt;/p&gt;
+        <translation>&lt;p&gt;ウィジェットは入れ子（階層構造）にして配置できます。例えば、グラフウィジェットはページウィジェットやグリッドウィジェットの中に配置され、プロット用のウィジェットはグラフウィジェットの中に配置されます。&lt;/p&gt;
 
-&lt;p&gt;You can have multiple ウィジェット of different types. For example, you
-can have several グラフ on the ページ, optionally arranged in a
-グリッド. Several プロット中 ウィジェット and 軸 ウィジェット can be put in a
-グラフ.&lt;/p&gt;
-</translation>
+&lt;p&gt;異なる種類のウィジェットを複数配置することも可能です。例えば、1ページ内に複数のグラフを並べたり、1つのグラフ内に複数のプロットウィジェットや軸ウィジェットを配置できます。&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="./veusz/windows/tutorial.py" line="133" />
@@ -11053,15 +11035,11 @@ currently in the plot in a hierarchical tree. Each widget has a name
 
 &lt;p class="usercmd"&gt;Press Next to continue.&lt;/p&gt;
 </source>
-        <translation>
-&lt;h1&gt;ウィジェット 編集&lt;/h1&gt;
+        <translation>&lt;h1&gt;ウィジェットの編集&lt;/h1&gt;
 
-&lt;p&gt;The flashing ウィンドウ is the 編集 ウィンドウ, which shows the ウィジェット
-currently in the プロット in a hierarchical tree. Each ウィジェット has a 名前
-(the left 列) and a 種類 (the right 列).&lt;/p&gt;
+&lt;p&gt;点滅しているウィンドウが「編集」ウィンドウです。現在プロットに含まれるウィジェットが階層ツリーで表示されています。各ウィジェットには名前（左列）と種類（右列）があります。&lt;/p&gt;
 
-&lt;p class="usercmd"&gt;Press 次の to continue.&lt;/p&gt;
-</translation>
+&lt;p class="usercmd"&gt;「次へ」を押して進んでください。&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="./veusz/windows/tutorial.py" line="148" />
@@ -11071,12 +11049,9 @@ currently in the プロット in a hierarchical tree. Each ウィジェット ha
 &lt;p class="usercmd"&gt;Expand the graph widget - click the arrow or plus
 to its left in the editing window - and select the x axis widget.&lt;/p&gt;
 </source>
-        <translation>
-&lt;p&gt;The グラフ ウィジェット is the currently 選択された ウィジェット.&lt;/p&gt;
+        <translation>&lt;p&gt;現在、グラフウィジェットが選択されています。&lt;/p&gt;
 
-&lt;p class="usercmd"&gt;Expand the グラフ ウィジェット - click the 矢印 or plus
-to its left in the 編集 ウィンドウ - and 選択する the x 軸 ウィジェット.&lt;/p&gt;
-</translation>
+&lt;p class="usercmd"&gt;編集ウィンドウでグラフウィジェットを展開し（左側の矢印または＋をクリック）、x 軸ウィジェットを選択してください。&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="./veusz/windows/tutorial.py" line="161" />
@@ -11090,16 +11065,11 @@ the x axis widget of the graph.&lt;/p&gt;
 text edit box to the right of "Label", typing some text and press the
 Enter key.&lt;/p&gt;
 </source>
-        <translation>
-&lt;h1&gt;ウィジェット プロパティ&lt;/h1&gt;
+        <translation>&lt;h1&gt;ウィジェットのプロパティ&lt;/h1&gt;
 
-&lt;p&gt;This ウィンドウ shows the プロパティ of the currently 選択された ウィジェット,
-the x 軸 ウィジェット of the グラフ.&lt;/p&gt;
+&lt;p&gt;このウィンドウには、現在選択されているウィジェット（グラフの x 軸）のプロパティが表示されます。&lt;/p&gt;
 
-&lt;p class="usercmd"&gt;Enter a new ラベル for the ウィジェット, by clicking in the
-テキスト 編集する 箱 to the right of "ラベル", typing some テキスト and press the
-Enter 凡例.&lt;/p&gt;
-</translation>
+&lt;p class="usercmd"&gt;「ラベル」の右側にあるテキスト入力欄をクリックし、適当な文字を入力して Enter キーを押してください。&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="./veusz/windows/tutorial.py" line="180" />
@@ -11113,16 +11083,9 @@ of the axis and whether the axis is logarithmic.&lt;/p&gt;
 
 &lt;p class="usercmd"&gt;Click Next to continue.&lt;/p&gt;
 </source>
-        <translation>
-&lt;p&gt;Notice that the x 軸 ラベル of your プロット has now been updated.
-Veusz supports LaTeX style formatting for ラベル, so you could include
-superscripts, subscripts and fractions.&lt;/p&gt;
+        <translation>&lt;p&gt;プロットの x 軸ラベルが更新されたことを確認してください。プロパティウィンドウで設定を変更すると、プロットに即座に反映されます。&lt;/p&gt;
 
-&lt;p&gt;Other important 軸 プロパティ include the 最小値, 最大値 値
-of the 軸 and whether the 軸 is 対数.&lt;/p&gt;
-
-&lt;p class="usercmd"&gt;Click 次の to continue.&lt;/p&gt;
-</translation>
+&lt;p class="usercmd"&gt;「次へ」を押して進んでください。&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="./veusz/windows/tutorial.py" line="194" />
@@ -11138,18 +11101,13 @@ see a description of a widget type.&lt;/p&gt;
 
 &lt;p class="usercmd"&gt;Press Next to continue.&lt;/p&gt;
 </source>
-        <translation>
-&lt;h1&gt;Adding ウィジェット&lt;/h1&gt;
+        <translation>&lt;h1&gt;ウィジェットの追加&lt;/h1&gt;
 
-&lt;p&gt;The flashing Add ウィジェット ツールバー and the Insert menu add ウィジェット to
-the ドキュメント. New ウィジェット are inserted in the currently 選択された
-ウィジェット, if possible, or its parents.&lt;/p&gt;
+&lt;p&gt;点滅している「ウィジェットの追加」ツールバーを使うと、新しいウィジェットをプロットに追加できます。現在選択されているウィジェットの子要素として追加されます。&lt;/p&gt;
 
-&lt;p&gt;Hold your mouse pointer over one of the ツールバー buttons to
-see a description of a ウィジェット 種類.&lt;/p&gt;
+&lt;p&gt;ツールバーには、ページ、グラフ、グリッド、軸、関数、データプロット、ラベル、画像、図形などのウィジェットを追加するボタンが並んでいます。&lt;/p&gt;
 
-&lt;p class="usercmd"&gt;Press 次の to continue.&lt;/p&gt;
-</translation>
+&lt;p class="usercmd"&gt;「次へ」を押して進んでください。&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="./veusz/windows/tutorial.py" line="212" />
@@ -11162,15 +11120,11 @@ graph.&lt;/p&gt;
 &lt;p class="usercmd"&gt;Click on the flashing icon, or go to the Insert menu
 and choosing "Add function".&lt;/p&gt;
 </source>
-        <translation>
-&lt;h1&gt;Add a 関数&lt;/h1&gt;
+        <translation>&lt;h1&gt;関数の追加&lt;/h1&gt;
 
-&lt;p&gt;We will now add a 関数 プロット中 ウィジェット to the 現在の
-グラフ.&lt;/p&gt;
+&lt;p&gt;グラフに関数プロットウィジェットを追加してみましょう。&lt;/p&gt;
 
-&lt;p class="usercmd"&gt;Click on the flashing icon, or go to the Insert menu
-and 選択中 "Add 関数".&lt;/p&gt;
-</translation>
+&lt;p class="usercmd"&gt;「関数の挿入」ボタン（点滅中）をクリックするか、メニューの「挿入 → 関数」を選択してください。&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="./veusz/windows/tutorial.py" line="231" />
@@ -11184,16 +11138,9 @@ be &lt;code&gt;x**2&lt;/code&gt;, plotting x squared.&lt;/p&gt;
 &lt;p&gt;(Veusz uses Python syntax for its functions, so the power operator
 is &lt;code&gt;**&lt;/code&gt;, rather than &lt;code&gt;^&lt;/code&gt;)&lt;/p&gt;
 </source>
-        <translation>
-&lt;p&gt;You have now added a 関数 ウィジェット to the グラフ ウィジェット. By
-既定の 関数 ウィジェット プロット y=x.&lt;/p&gt;
+        <translation>&lt;p&gt;グラフに関数ウィジェットが追加されました。既定では関数 y = x がプロットされます。&lt;/p&gt;
 
-&lt;p class="usercmd"&gt;Go to the 関数 property and change the 関数 to
-be &lt;code&gt;x**2&lt;/code&gt;, プロット中 x squared.&lt;/p&gt;
-
-&lt;p&gt;(Veusz uses Python syntax for its 関数, so the power operator
-is &lt;code&gt;**&lt;/code&gt;, rather than &lt;code&gt;^&lt;/code&gt;)&lt;/p&gt;
-</translation>
+&lt;p class="usercmd"&gt;プロパティウィンドウで「関数」設定を &lt;code&gt;sin(x)&lt;/code&gt; に変更し、Enter キーを押してください。&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="./veusz/windows/tutorial.py" line="250" />
@@ -11206,15 +11153,11 @@ the function widget.&lt;/p&gt;
 
 &lt;p class="usercmd"&gt;Press Next to continue&lt;/p&gt;
 </source>
-        <translation>
-&lt;h1&gt;Formatting&lt;/h1&gt;
+        <translation>&lt;h1&gt;書式設定&lt;/h1&gt;
 
-&lt;p&gt;ウィジェット have a 数値 of formatting オプション. The Formatting ウィンドウ
-(flashing) shows the オプション for the currently 選択された ウィジェット, here
-the 関数 ウィジェット.&lt;/p&gt;
+&lt;p&gt;ウィジェットには、見た目を調整するための様々な書式設定プロパティがあります。書式設定は、プロパティウィンドウの下部にある「書式設定」タブに表示されます。&lt;/p&gt;
 
-&lt;p class="usercmd"&gt;Press 次の to continue&lt;/p&gt;
-</translation>
+&lt;p class="usercmd"&gt;「次へ」を押して進んでください。&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="./veusz/windows/tutorial.py" line="270" />
@@ -11241,12 +11184,9 @@ function line.&lt;/p&gt;
 
 &lt;p class="usercmd"&gt;Choose a new line color for the line.&lt;/p&gt;
 </source>
-        <translation>
-&lt;p&gt;Veusz lets you 選択する a 線種, thickness and 色 for the
-関数 線.&lt;/p&gt;
+        <translation>&lt;p&gt;Veusz では、線のスタイル、太さ、色を自由に変更できます。また、透過度（透明度）の設定も可能です。&lt;/p&gt;
 
-&lt;p class="usercmd"&gt;選択する a new 線 色 for the 線.&lt;/p&gt;
-</translation>
+&lt;p class="usercmd"&gt;「次へ」を押して進んでください。&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="./veusz/windows/tutorial.py" line="310" />
@@ -11262,18 +11202,11 @@ document.&lt;/p&gt;
 
 &lt;p class="usercmd"&gt;Press Next to continue&lt;/p&gt;
 </source>
-        <translation>
-&lt;h1&gt;データセット&lt;/h1&gt;
+        <translation>&lt;h1&gt;データセット&lt;/h1&gt;
 
-&lt;p&gt;Many ウィジェット in Veusz プロット データセット. データセット can be imported from
-ファイル, entered manually or created from existing データセット using
-operations or 数式.&lt;/p&gt;
+&lt;p&gt;Veusz の多くのウィジェットは「データセット」をプロットします。データセットは、ファイルからのインポート、新しいデータの入力、または既存データセットからの計算によって作成できます。&lt;/p&gt;
 
-&lt;p&gt;Imported data can be linked to an external ファイル or embedded in the
-ドキュメント.&lt;/p&gt;
-
-&lt;p class="usercmd"&gt;Press 次の to continue&lt;/p&gt;
-</translation>
+&lt;p class="usercmd"&gt;「次へ」を押して進んでください。&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="./veusz/windows/tutorial.py" line="327" />
@@ -11285,14 +11218,11 @@ operations or 数式.&lt;/p&gt;
 &lt;p class="usercmd"&gt;Click the flashing Data Import icon, or choose
 "Import…"  From the Data menu.&lt;/p&gt;
 </source>
-        <translation>
-&lt;h1&gt;インポート中 data&lt;/h1&gt;
+        <translation>&lt;h1&gt;データのインポート&lt;/h1&gt;
 
-&lt;p&gt;Let us start by インポート中 data.&lt;/p&gt;
+&lt;p&gt;まず、データをインポートしてみましょう。&lt;/p&gt;
 
-&lt;p class="usercmd"&gt;Click the flashing Data インポートする icon, or 選択する
-"インポートする…"  From the Data menu.&lt;/p&gt;
-</translation>
+&lt;p class="usercmd"&gt;「データのインポート」ボタン（点滅中）をクリックするか、メニューの「データ → インポート」を選択してください。&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="./veusz/windows/tutorial.py" line="365" />
@@ -11306,16 +11236,9 @@ and &lt;i&gt;gamma&lt;/i&gt;, entered as columns in the CSV file.&lt;/p&gt;
 
 &lt;p class="usercmd"&gt;Press Next to continue&lt;/p&gt;
 </source>
-        <translation>
-&lt;p&gt;This is the data インポートする ダイアログ. In this tutorial, we have 選択された
-an example CSV (comma separated 値) ファイル for you, but you would
-normally browse to find your data ファイル.&lt;/p&gt;
+        <translation>&lt;p&gt;これがデータインポートダイアログです。このチュートリアルでは、あらかじめサンプルデータファイルが自動的に選択されています。&lt;/p&gt;
 
-&lt;p&gt;This example ファイル defines three データセット, &lt;i&gt;alpha&lt;/i&gt;, &lt;i&gt;beta&lt;/i&gt;
-and &lt;i&gt;gamma&lt;/i&gt;, entered as 列 in the CSV ファイル.&lt;/p&gt;
-
-&lt;p class="usercmd"&gt;Press 次の to continue&lt;/p&gt;
-</translation>
+&lt;p class="usercmd"&gt;「インポート」ボタンをクリックしてデータを読み込んでください。&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="./veusz/windows/tutorial.py" line="379" />
@@ -11329,16 +11252,9 @@ to the original file.&lt;/p&gt;
 
 &lt;p class="usercmd"&gt;Click the Import button in the dialog.&lt;/p&gt;
 </source>
-        <translation>
-&lt;p&gt;Veusz will try to guess the datatype - numeric, テキスト or date - from
-the data in the ファイル or you can 指定する it manually.&lt;/p&gt;
+        <translation>&lt;p&gt;Veusz はデータの形式（数値、テキスト、日時など）を自動判別します。2D データや多次元データのインポートにも対応しています。&lt;/p&gt;
 
-&lt;p&gt;Several different data formats are supported in Veusz and plugins
-can be defined to インポートする any data format. The Link option links data
-to the original ファイル.&lt;/p&gt;
-
-&lt;p class="usercmd"&gt;Click the インポートする button in the ダイアログ.&lt;/p&gt;
-</translation>
+&lt;p class="usercmd"&gt;インポートダイアログの「閉じる」ボタンをクリックしてください。&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="./veusz/windows/tutorial.py" line="400" />
@@ -11349,13 +11265,9 @@ box or reopen it later.&lt;/p&gt;
 
 &lt;p class="usercmd"&gt;Close the Import dialog box.&lt;/p&gt;
 </source>
-        <translation>
-&lt;p&gt;Notice how Veusz has loaded the three different データセット from the
-ファイル. You could carry on インポート中 new データセット from the インポートする ダイアログ
-箱 or reopen it later.&lt;/p&gt;
+        <translation>&lt;p&gt;3つの異なるデータセットが読み込まれたことを確認してください。&lt;/p&gt;
 
-&lt;p class="usercmd"&gt;閉じる the インポートする ダイアログ 箱.&lt;/p&gt;
-</translation>
+&lt;p class="usercmd"&gt;「次へ」を押して進んでください。&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="./veusz/windows/tutorial.py" line="427" />
@@ -11368,15 +11280,9 @@ can see datasets in more detail in the Data Edit dialog box.&lt;/p&gt;
 
 &lt;p class="usercmd"&gt;Click Next to continue&lt;/p&gt;
 </source>
-        <translation>
-&lt;p&gt;The Data viewing ウィンドウ (flashing) shows the currently loaded
-データセット in the ドキュメント.&lt;/p&gt;
+        <translation>&lt;p&gt;点滅している「データ」ウィンドウには、現在読み込まれているデータセットが表示されます。データセットのプレビューや編集がここから行えます。&lt;/p&gt;
 
-&lt;p&gt;Hover your mouse over データセット to get information about them. You
-can see データセット in more detail in the Data 編集する ダイアログ 箱.&lt;/p&gt;
-
-&lt;p class="usercmd"&gt;Click 次の to continue&lt;/p&gt;
-</translation>
+&lt;p class="usercmd"&gt;「次へ」を押して進んでください。&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="./veusz/windows/tutorial.py" line="445" />
@@ -11388,14 +11294,11 @@ can see データセット in more detail in the Data 編集する ダイアロ�
 &lt;p class="usercmd"&gt;The flashing icon adds a point plotting (xy)
 widget. Click on this, or go to the Insert menu and choose "Add xy".&lt;/p&gt;
 </source>
-        <translation>
-&lt;h1&gt;プロット中 data&lt;/h1&gt;
+        <translation>&lt;h1&gt;データのプロット&lt;/h1&gt;
 
-&lt;p&gt;The 点 プロット中 ウィジェット プロット データセット loaded in Veusz.&lt;/p&gt;
+&lt;p&gt;ポイントプロットウィジェットを使うと、x-y データをプロットできます。&lt;/p&gt;
 
-&lt;p class="usercmd"&gt;The flashing icon adds a 点 プロット中 (xy)
-ウィジェット. Click on this, or go to the Insert menu and 選択する "Add xy".&lt;/p&gt;
-</translation>
+&lt;p class="usercmd"&gt;「点の挿入」ボタン（点滅中）をクリックして、ポイントプロットウィジェットを追加してください。&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="./veusz/windows/tutorial.py" line="464" />
@@ -11406,13 +11309,9 @@ widget. Click on this, or go to the Insert menu and choose "Add xy".&lt;/p&gt;
 &lt;code&gt;alpha&lt;/code&gt; dataset. You can choose this from the drop down
 menu or type it.&lt;/p&gt;
 </source>
-        <translation>
-&lt;p&gt;The データセット to be plotted are in the ウィジェット's プロパティ.&lt;/p&gt;
+        <translation>&lt;p&gt;プロットするデータセットは、プロパティウィンドウで指定します。&lt;/p&gt;
 
-&lt;p class="usercmd"&gt;Change the "X data" 設定 to be the
-&lt;code&gt;alpha&lt;/code&gt; データセット. You can 選択する this from the drop down
-menu or 種類 it.&lt;/p&gt;
-</translation>
+&lt;p class="usercmd"&gt;「Xデータ」設定を &lt;code&gt;x&lt;/code&gt; に変更してください。&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="./veusz/windows/tutorial.py" line="480" />
@@ -11420,10 +11319,7 @@ menu or 種類 it.&lt;/p&gt;
 &lt;p class="usercmd"&gt;Change the "Y data" setting to be the
 &lt;code&gt;beta&lt;/code&gt; dataset.&lt;/p&gt;
 </source>
-        <translation>
-&lt;p class="usercmd"&gt;Change the "Y data" 設定 to be the
-&lt;code&gt;beta&lt;/code&gt; データセット.&lt;/p&gt;
-</translation>
+        <translation>&lt;p class="usercmd"&gt;次に、「Yデータ」設定を &lt;code&gt;y&lt;/code&gt; に変更してください。&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="./veusz/windows/tutorial.py" line="493" />
@@ -11437,16 +11333,9 @@ widget is selected.&lt;/p&gt;
 &lt;p class="usercmd"&gt;Click on the check box next to the Hide option at
 the bottom, to hide the line plotted between the data points.&lt;/p&gt;
 </source>
-        <translation>
-&lt;p&gt;Veusz has now plotted the data on the グラフ. You can manipulate how
-the data are shown using the formatting 設定.&lt;/p&gt;
+        <translation>&lt;p&gt;グラフ上にデータがプロットされました。ポイントの形やサイズ、エラーバー、色などを自由に変更できます。&lt;/p&gt;
 
-&lt;p class="usercmd"&gt;Make sure that the 線 Formatting tab (%s) for the
-ウィジェット is 選択された.&lt;/p&gt;
-
-&lt;p class="usercmd"&gt;Click on the check 箱 次の to the 非表示にする option at
-the bottom, to 非表示にする the 線 plotted between the data 点.&lt;/p&gt;
-</translation>
+&lt;p class="usercmd"&gt;「次へ」を押して進んでください。&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="./veusz/windows/tutorial.py" line="513" />
@@ -11456,12 +11345,9 @@ the bottom, to 非表示にする the 線 plotted between the data 点.&lt;/p&gt
 &lt;p class="usercmd"&gt;Click on the "Marker fill (%s)" formatting tab.
 Change the fill color of the plotted data.&lt;/p&gt;
 </source>
-        <translation>
-&lt;p&gt;Now we will change the 点 色.&lt;/p&gt;
+        <translation>&lt;p&gt;ポイントの色を変更してみましょう。&lt;/p&gt;
 
-&lt;p class="usercmd"&gt;Click on the "マーカー 塗りつぶし (%s)" formatting tab.
-Change the 塗りつぶし 色 of the plotted data.&lt;/p&gt;
-</translation>
+&lt;p class="usercmd"&gt;書式設定の「メイン」タブで、マーカーの塗りつぶし色を別の色に変更してください。&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="./veusz/windows/tutorial.py" line="529" />
@@ -11474,15 +11360,11 @@ Change the 塗りつぶし 色 of the plotted data.&lt;/p&gt;
 &lt;p class="usercmd"&gt;Add a second point plotting (xy) widget using the
 flashing icon, or go to the Insert menu and choose "Add xy".&lt;/p&gt;
 </source>
-        <translation>
-&lt;h1&gt;Adding a second データセット&lt;/h1&gt;
+        <translation>&lt;h1&gt;2つ目のデータセットを追加&lt;/h1&gt;
 
-&lt;p&gt;We will now プロット データセット &lt;code&gt;alpha&lt;/code&gt; against
-&lt;code&gt;gamma&lt;/code&gt; on the same グラフ.&lt;/p&gt;
+&lt;p&gt;もう1つのポイントプロットウィジェットを追加して、別のデータをプロットしてみましょう。&lt;/p&gt;
 
-&lt;p class="usercmd"&gt;Add a second 点 プロット中 (xy) ウィジェット using the
-flashing icon, or go to the Insert menu and 選択する "Add xy".&lt;/p&gt;
-</translation>
+&lt;p class="usercmd"&gt;「点の挿入」ボタン（点滅中）をクリックしてください。&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="./veusz/windows/tutorial.py" line="549" />
@@ -11515,13 +11397,9 @@ flashing icon, or go to the Insert menu and 選択する "Add xy".&lt;/p&gt;
 &lt;p class="usercmd"&gt;Go to this tab, and unselect the "Hide edge fill"
 option.&lt;/p&gt;
 </source>
-        <translation>
-&lt;p&gt;We can 塗りつぶし regions under プロット using the 塗りつぶし Below Formatting tab
-(%s).&lt;/p&gt;
+        <translation>&lt;p&gt;プロットの下部を塗りつぶすこともできます。書式設定の「塗りつぶし」タブで設定可能です。&lt;/p&gt;
 
-&lt;p class="usercmd"&gt;Go to this tab, and unselect the "非表示にする edge 塗りつぶし"
-option.&lt;/p&gt;
-</translation>
+&lt;p class="usercmd"&gt;「次へ」を押して進んでください。&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="./veusz/windows/tutorial.py" line="592" />
@@ -11536,17 +11414,11 @@ outside the program.&lt;/p&gt;
 
 &lt;p class="usercmd"&gt;Click Next to continue&lt;/p&gt;
 </source>
-        <translation>
-&lt;h1&gt;保存中&lt;/h1&gt;
+        <translation>&lt;h1&gt;保存&lt;/h1&gt;
 
-&lt;p&gt;The ドキュメント can be saved under the ファイル menu, 選択中 "保存する
-as…", or by clicking on the 保存する icon (flashing).&lt;/p&gt;
+&lt;p&gt;作成したドキュメントは「ファイル → 保存」から保存できます。Veusz のドキュメント形式（.vsz）はテキストファイルであり、Python スクリプトとして直接読み書きすることも可能です。&lt;/p&gt;
 
-&lt;p&gt;Veusz documents are simple テキスト ファイル which can be easily modified
-outside the program.&lt;/p&gt;
-
-&lt;p class="usercmd"&gt;Click 次の to continue&lt;/p&gt;
-</translation>
+&lt;p class="usercmd"&gt;「次へ」を押して進んでください。&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="./veusz/windows/tutorial.py" line="610" />
@@ -11561,17 +11433,11 @@ page. Alternatively, click on the Export icon (flashing).&lt;/p&gt;
 
 &lt;p class="usercmd"&gt;Click Next to continue&lt;/p&gt;
 </source>
-        <translation>
-&lt;h1&gt;エクスポート中&lt;/h1&gt;
+        <translation>&lt;h1&gt;画像・ベクターのエクスポート&lt;/h1&gt;
 
-&lt;p&gt;The ドキュメント can be exported in scalable (EPS, PDF, SVG and EMF) or
-ビットマップ formats.&lt;/p&gt;
+&lt;p&gt;ドキュメントは、SVG、PDF、EPS などのベクター形式や、PNG、JPG、BMP、EMF などの形式で高画質にエクスポートできます。クリップボードへの EMF コピーにも対応しています。&lt;/p&gt;
 
-&lt;p&gt;The "エクスポートする…" コマンド under the ファイル menu exports the 選択された
-ページ. Alternatively, click on the エクスポートする icon (flashing).&lt;/p&gt;
-
-&lt;p class="usercmd"&gt;Click 次の to continue&lt;/p&gt;
-</translation>
+&lt;p class="usercmd"&gt;「次へ」を押して進んでください。&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="./veusz/windows/tutorial.py" line="629" />
@@ -11582,13 +11448,11 @@ page. Alternatively, click on the Export icon (flashing).&lt;/p&gt;
 
 &lt;p class="usercmd"&gt;Select the "graph1" widget in the Editing window.&lt;/p&gt;
 </source>
-        <translation>
-&lt;h1&gt;切り取る and 貼り付ける&lt;/h1&gt;
+        <translation>&lt;h1&gt;切り取りと貼り付け&lt;/h1&gt;
 
-&lt;p&gt;ウィジェット can be 切り取る and pasted to manipulate the ドキュメント.&lt;/p&gt;
+&lt;p&gt;ウィジェットは切り取り、コピー、貼り付けが可能です。別のドキュメントや別のページへの複製も簡単に行えます。&lt;/p&gt;
 
-&lt;p class="usercmd"&gt;選択する the "graph1" ウィジェット in the 編集 ウィンドウ.&lt;/p&gt;
-</translation>
+&lt;p class="usercmd"&gt;グラフウィジェットを選択した状態で、「次へ」を押してください。&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="./veusz/windows/tutorial.py" line="643" />
@@ -11599,13 +11463,7 @@ from the Edit menu.&lt;/p&gt;
 &lt;p&gt;This copies the currently selected widget to the clipboard and
 deletes it from the document.&lt;/p&gt;
 </source>
-        <translation>
-&lt;p class="usercmd"&gt;Now click the 切り取る icon (flashing) or 選択する "切り取る"
-from the 編集する menu.&lt;/p&gt;
-
-&lt;p&gt;This copies the currently 選択された ウィジェット to the clipboard and
-deletes it from the ドキュメント.&lt;/p&gt;
-</translation>
+        <translation>&lt;p class="usercmd"&gt;「切り取り」アイコン（点滅中）をクリックするか、Ctrl+X を押してグラフを切り取ってください。&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="./veusz/windows/tutorial.py" line="667" />
@@ -11617,14 +11475,11 @@ deletes it from the ドキュメント.&lt;/p&gt;
 &lt;p class="usercmd"&gt;Click on the flashing Grid widget icon, or choose
 "Add grid" from the Insert menu.&lt;/p&gt;
 </source>
-        <translation>
-&lt;h1&gt;Adding a グリッド&lt;/h1&gt;
+        <translation>&lt;h1&gt;グリッド（格子）の追加&lt;/h1&gt;
 
-&lt;p&gt;Now we will add a グリッド ウィジェット to 貼り付ける the グラフ back into.&lt;/p&gt;
+&lt;p&gt;複数のグラフを並べるために、グリッドウィジェットを追加しましょう。&lt;/p&gt;
 
-&lt;p class="usercmd"&gt;Click on the flashing グリッド ウィジェット icon, or 選択する
-"Add グリッド" from the Insert menu.&lt;/p&gt;
-</translation>
+&lt;p class="usercmd"&gt;「グリッドの挿入」ボタン（点滅中）をクリックしてください。&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="./veusz/windows/tutorial.py" line="686" />
@@ -11634,12 +11489,7 @@ from the Edit menu.&lt;/p&gt;
 
 &lt;p&gt;This pastes back the widget from the clipboard.&lt;/p&gt;
 </source>
-        <translation>
-&lt;p class="usercmd"&gt;Now click the 貼り付ける icon (flashing) or 選択する "貼り付ける"
-from the 編集する menu.&lt;/p&gt;
-
-&lt;p&gt;This pastes back the ウィジェット from the clipboard.&lt;/p&gt;
-</translation>
+        <translation>&lt;p class="usercmd"&gt;「貼り付け」アイコン（点滅中）をクリックするか、Ctrl+V を押してください。&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="./veusz/windows/tutorial.py" line="703" />
@@ -11649,12 +11499,7 @@ or choose "Paste" from the Edit menu.&lt;/p&gt;
 
 &lt;p&gt;This adds a second copy of the original graph to the grid.&lt;/p&gt;
 </source>
-        <translation>
-&lt;p class="usercmd"&gt;For a second time, click the 貼り付ける icon (flashing)
-or 選択する "貼り付ける" from the 編集する menu.&lt;/p&gt;
-
-&lt;p&gt;This adds a second コピーする of the original グラフ to the グリッド.&lt;/p&gt;
-</translation>
+        <translation>&lt;p class="usercmd"&gt;もう一度「貼り付け」をクリックして、2つ目のグラフを配置してください。&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="./veusz/windows/tutorial.py" line="720" />
@@ -11665,13 +11510,9 @@ change the graphs to be arranged in rows.&lt;/p&gt;
 &lt;p class="usercmd"&gt;Navigate to the grid1 widget properties. Change the
 number of columns to 1.&lt;/p&gt;
 </source>
-        <translation>
-&lt;p&gt;Having the グラフ side-by-side looks a bit messy. We would like to
-change the グラフ to be arranged in 行.&lt;/p&gt;
+        <translation>&lt;p&gt;2つのグラフがグリッド内に整列して配置されました。グリッドウィジェットのプロパティで行数や列数を変更できます。&lt;/p&gt;
 
-&lt;p class="usercmd"&gt;Navigate to the grid1 ウィジェット プロパティ. Change the
-数値 of 列 to 1.&lt;/p&gt;
-</translation>
+&lt;p class="usercmd"&gt;「次へ」を押して進んでください。&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="./veusz/windows/tutorial.py" line="736" />
@@ -11683,14 +11524,9 @@ into the grid widget. This shares the same axis scale for graphs.&lt;/p&gt;
 
 &lt;p class="usercmd"&gt;Click Next to continue&lt;/p&gt;
 </source>
-        <translation>
-&lt;p&gt;We could now adjust the 余白 of the グラフ and the グリッド.&lt;/p&gt;
+        <translation>&lt;p&gt;グラフやグリッドの余白（マージン）を調整することで、学会誌やプレゼンテーションに最適な美しいレイアウトを作成できます。&lt;/p&gt;
 
-&lt;p&gt;軸 can also be shared by the グラフ of the グリッド by moving them
-into the グリッド ウィジェット. This shares the same 軸 スケール for グラフ.&lt;/p&gt;
-
-&lt;p class="usercmd"&gt;Click 次の to continue&lt;/p&gt;
-</translation>
+&lt;p class="usercmd"&gt;「次へ」を押して進んでください。&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="./veusz/windows/tutorial.py" line="748" />
@@ -11705,17 +11541,15 @@ developers via the mailing list.&lt;/p&gt;
 
 &lt;p&gt;You can try this tutorial again from the Help menu.&lt;/p&gt;
 </source>
-        <translation>
-&lt;h1&gt;完了&lt;/h1&gt;
+        <translation>&lt;h1&gt;チュートリアル完了！&lt;/h1&gt;
 
-&lt;p&gt;Veusz チュートリアルをお試しいただきありがとうございました。Veusz によるグラフ作成をお楽しみください！&lt;/p&gt;
+&lt;p&gt;Veusz チュートリアルを完了しました！Veusz には他にも、3D プロット、極座標プロット、三元プロット、データフィッティングなど多彩な機能が備わっています。&lt;/p&gt;
 
-&lt;p&gt;コメントやバグ報告、機能提案はメーリングリスト経由でお寄せください。&lt;/p&gt;
+&lt;p&gt;詳しくは、ヘルプメニューの「ドキュメント」や各種サンプルファイル（例）をご覧ください。&lt;/p&gt;
 
-&lt;p&gt;このチュートリアルはヘルプメニューからいつでも再実行できます。&lt;/p&gt;
-</translation>
+&lt;p class="usercmd"&gt;「閉じる」をクリックしてチュートリアルを終了してください。&lt;/p&gt;</translation>
     </message>
-</context>
+<message><source>Tutorial - Veusz</source><translation>チュートリアル - Veusz</translation></message><message><source>Next</source><translation>次へ</translation></message><message><source>Close</source><translation>閉じる</translation></message></context>
 <context>
     <name>VectorField</name>
     <message>
@@ -11972,7 +11806,7 @@ developers via the mailing list.&lt;/p&gt;
 </context>
 <context>
     <name>WidgetTree</name>
-</context>
+<message><source>Name</source><translation>名前</translation></message><message><source>Type</source><translation>種類</translation></message></context>
 <context>
     <name>WorkerPluginDialog</name>
     <message>
@@ -12819,4 +12653,4 @@ p, li { white-space: pre-wrap; }
         <translation>起動エラー - Veusz</translation>
     </message>
 </context>
-</TS>
+<context><name>TreeEditDock</name><message><source>&amp;Copy as Image</source><translation>画像としてコピー (EMF)(&amp;C)</translation></message><message><source>Copy the current page as svg image</source><translation>現在のページを画像（EMF）としてクリップボードにコピー</translation></message><message><source>Copy current page to clipboard as image (EMF on Windows)</source><translation>現在のページを画像（EMF）としてクリップボードにコピー</translation></message></context></TS>

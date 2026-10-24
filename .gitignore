@@ -17,3 +17,7 @@ Documents/manual/
 
 .idea/
 veusz.egg-info/
+installer_out/
+install.nsi
+scratch/
+support/nsis/
