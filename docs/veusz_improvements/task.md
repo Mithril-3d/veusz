@@ -10,14 +10,19 @@
 - [x] QMファイル (`translation/veusz_ja.qm`) の生成と動作検証（QTranslator によるロードテスト成功）
 - [x] 言語設定および日本語環境での自動検出・ロード実装 (`veusz/veusz_main.py`)
 
-## 2. クリップボードへの拡張メタファイル(EMF)コピー (ブランチ: feature/clipboard-emf-copy)
-- [ ] WindowsクリップボードへのEMF形式 (CF_ENHMETAFILE) 格納モジュールの実装
-- [ ] グラフプレビュー画面での右クリックメニュー「クリップボードに保存」項目の追加
-- [ ] ショートカットキー (Ctrl+C / Ctrl+Shift+C) の割り当てと競合チェック
-- [ ] Word / PowerPoint / Excel 等への貼り付けテスト
+## 2. クリップボードへの拡張メタファイル(EMF)コピー (ブランチ: feature/clipboard-emf-copy) - 【完了】
+- [x] WindowsクリップボードへのEMF形式 (CF_ENHMETAFILE) 格納モジュール (`veusz/utils/windows_clipboard.py`) の実装 (64bit API対応)
+- [x] グラフプレビュー画面での右クリックメニュー「画像としてコピー」項目の追加 (`veusz/windows/plotwindow.py`)
+- [x] ショートカットキー `Ctrl+Shift+C` の割り当てと競合回避 (`veusz/windows/treeeditwindow.py`)
+- [x] ハイブリッドクリップボード対応 (EMF + PNG/SVG を同時に格納し、Office ではベクター画像、ペイント等ではビットマップ画像として貼り付け可能)
+- [x] 単体テストおよび統合検証スクリプト (`tools/test_clipboard_emf.py`) による全件PASS確認
 
-## 3. ラベルの文字修飾UI強化 (ブランチ: feature/label-formatting-toolbar)
-- [ ] LabPlot等のテキスト修飾UIの調査・設計
-- [ ] SettingEdit / テキスト入力欄向け修飾ミニツールバーの実装
-  - 太字 (B: \textbf{}), 斜体 (I: \italic{}), 上付き (x²: ^{}), 下付き (x₂: _{}), ギリシャ文字パレット
-- [ ] 選択テキストの一括タグ囲み・挿入アシスト動作の検証
+## 3. ラベルの文字修飾UI強化 (ブランチ: feature/label-formatting-toolbar) - 【完了】
+- [x] LabPlot風テキスト修飾UIの調査・設計（ミニツールバー＋グリッド文字パレット）
+- [x] SettingEdit / テキスト入力欄向け修飾ミニツールバー (`TextFormatToolbar`) の実装 (`veusz/setting/controls.py`)
+  - 太字 (B: `\bold{}`), 斜体 (I: `\italic{}`), 下線 (U: `\underline{}`), 上付き (x²: `^{}`), 下付き (x₂: `_{}`), 分数 (a/b: `\frac{}{}`)
+  - ギリシャ文字パレット (α▾: `GridPaletteMenu`) によるワンクリック挿入
+  - 科学・数学記号パレット (±▾: `GridPaletteMenu`) によるワンクリック挿入
+- [x] ポップアップ編集ダイアログ (`_EditBox`) のツールバー統合・Esc/Enterショートカット対応
+- [x] インライン入力欄 (`String.edit`) での `Ctrl+B`, `Ctrl+I`, `Ctrl+U` 直接タグ囲みショートカット対応
+- [x] 単体テストおよび統合検証スクリプト (`tools/test_formatting_toolbar.py`) による全件PASS確認

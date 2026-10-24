@@ -22,6 +22,7 @@
 and formatting properties."""
 
 import os
+import sys
 import tempfile
 
 from .. import qtall as qt
@@ -1022,9 +1023,10 @@ class TreeEditDock(qt.QDockWidget):
                 self.slotWidgetCopy,
                 icon='kde-edit-copy', key='Ctrl+C'),
             'edit.copy_as_image': a(
-                self, _('Copy the current page as svg image'), _('&Copy as Image'),
+                self, _('Copy current page to clipboard as image (EMF on Windows)'),
+                _('&Copy as Image'),
                 self.slotWidgetCopyAsImage,
-                icon='kde-edit-copy', key='Ctrl+Alt+C'),
+                icon='kde-edit-copy', key='Ctrl+Shift+C'),
             'edit.paste': a(
                 self, _('Paste widget from the clipboard'), _('&Paste'),
                 self.slotWidgetPaste,
@@ -1214,6 +1216,11 @@ class TreeEditDock(qt.QDockWidget):
                 'bmp': ['image/x-bmp'],
                 }
 
+        # On Windows, include EMF if pyemf3 is available
+        export_emf = (sys.platform == 'win32' and document.hasemf)
+        if export_emf:
+            exts['emf'] = ['image/x-emf']
+
         def checkDone(export, exts):
             """Check whether exporting pages as images has finished."""
             if not export.haveDone():
@@ -1231,12 +1238,22 @@ class TreeEditDock(qt.QDockWidget):
                             bs = fo.read()
                         for mime in mimes:
                             data.setData(mime, bs)
-                        os.remove(fname)
                     except:
                         pass
 
                 # set QMimeData to clipboard
                 clipboard.setMimeData(data)
+
+                # On Windows, register native CF_ENHMETAFILE (14) to clipboard
+                if export_emf:
+                    emf_fname = os.path.join(tmpdir.name, 'tmp.emf')
+                    if os.path.isfile(emf_fname):
+                        try:
+                            from ..utils import windows_clipboard
+                            windows_clipboard.copy_emf_file_to_clipboard(emf_fname)
+                        except Exception:
+                            pass
+
                 tmpdir.cleanup()
 
             except:

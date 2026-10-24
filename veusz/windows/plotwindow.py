@@ -1133,6 +1133,10 @@ class PlotWindow( qt.QGraphicsView ):
         menu = qt.QMenu(self)
 
         # add some useful entries
+        if self.vzactions and 'edit.copy_as_image' in self.vzactions:
+            menu.addAction( self.vzactions['edit.copy_as_image'] )
+            menu.addSeparator()
+
         menu.addAction( self.vzactions['view.zoommenu'] )
         menu.addSeparator()
         menu.addAction( self.vzactions['view.prevpage'] )
