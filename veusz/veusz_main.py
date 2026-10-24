@@ -311,6 +311,13 @@ class VeuszApp(qt.QApplication):
 
         # optionally load a translation
         txfile = args.translation or setting.settingdb['translation_file']
+        if not txfile:
+            loc = qt.QLocale.system().name()
+            if loc.startswith('ja'):
+                cand = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'translation', 'veusz_ja.qm')
+                if os.path.exists(cand):
+                    txfile = cand
+
         if txfile:
             self.trans = qt.QTranslator()
             if self.trans.load(txfile):

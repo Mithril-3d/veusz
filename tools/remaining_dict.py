@@ -1,0 +1,166 @@
+# -*- coding: utf-8 -*-
+"""
+remaining_dict.py
+-----------------
+Comprehensive academic/graph mappings for all remaining Veusz strings.
+"""
+
+REMAINING_DICT = {
+    # Axis & BrokenAxis
+    "Zero extend": "ゼロまで拡張",
+    "Pairs of values to start and stop breaks": "ブレーク (中断) の開始・終了値のペア",
+    "Break pairs": "ブレーク区間ペア",
+    "Break positions": "ブレーク位置",
+    "Positions along axis where breaks occur": "軸上でブレークが発生する位置",
+    "Fractional gap for breaks": "ブレークのギャップ幅 (比率)",
+    "Break gap": "ブレーク間隔",
+
+    # BoxPlot
+    "Calculate statistics from datasets rather than given manually": "手動入力ではなくデータセットから統計量を自動計算",
+    "Calculate": "計算",
+    "Fill fraction of boxes": "箱の塗りつぶし比率",
+    "Fill fraction": "塗りつぶし比率",
+    "Marker for outliers": "外れ値のマーカー",
+    "Marker for mean": "平均値のマーカー",
+    "Size of markers to plot": "プロットするマーカーのサイズ",
+    "Markers size": "マーカーサイズ",
+    "Box border line": "箱の境界線",
+    "Box border": "箱の境界",
+    "Whisker line": "ひげの線",
+    "Line around markers": "マーカーの外枠線",
+    "Markers border": "マーカーの境界",
+    "Markers fill": "マーカーの塗りつぶし",
+    "Datasets containing values to calculate statistics for": "統計量を計算する値を含むデータセット",
+    "Dataset with whisker maxima or list of values": "ひげの最大値を含むデータセットまたは値のリスト",
+    "Whisker max": "ひげ最大値",
+    "Dataset with whisker minima or list of values": "ひげの最小値を含むデータセットまたは値のリスト",
+    "Whisker min": "ひげ最小値",
+    "Dataset with box maxima or list of values": "箱の最大値 (上側四分位) を含むデータセットまたは値のリスト",
+    "Box max": "箱最大値",
+    "Dataset with box minima or list of values": "箱の最小値 (下側四分位) を含むデータセットまたは値のリスト",
+    "Box min": "箱最小値",
+    "Dataset with medians or list of values": "中央値を含むデータセットまたは値のリスト",
+    "Dataset with means or list of values": "平均値を含むデータセットまたは値のリスト",
+
+    # CaptureDialog & CapturingDialog
+    "Capture data - Veusz": "データのキャプチャ - Veusz",
+    "…": "…",
+    "Capturing data - Veusz": "データをキャプチャ中 - Veusz",
+    "Reading from: %s": "読み込み元: %s",
+    "%i bytes read in %i seconds": "%i 秒で %i バイトを読み込みました",
+    "Items": "項目数",
+    "&Finish": "完了(&F)",
+
+    # CommandInterface
+    "Added a widget of type '%s' (%s)": "種類 '%s' のウィジェット (%s) を追加しました",
+    "Constructed histogram of \"%s\", creating datasets \"%s\" and \"%s\"": "\"%s\" のヒストグラムを作成し、データセット \"%s\" および \"%s\" を生成しました",
+    "Used dataset plugin %s to make datasets %s": "データセットプラグイン %s を使用してデータセット %s を作成しました",
+    "Changed to widget '%s'": "ウィジェット '%s' に切り替えました",
+    "No children found": "子要素が見つかりません",
+    "Set setting '%s' to %s": "設定 '%s' を %s に設定しました",
+    "Set dataset '%s':\n Values = %s\n Symmetric errors = %s\n Negative errors = %s\n Positive errors = %s": "データセット '%s' を設定:\n 値 = %s\n 対称誤差 = %s\n マイナス誤差 = %s\n プラス誤差 = %s",
+    "Set dataset '%s':\n Values = %s": "データセット '%s' を設定:\n 値 = %s",
+    "Set dataset '%s' based on expression:\n Values = %s\n Symmetric errors = %s\n Negative errors = %s\n Positive errors = %s": "数式に基づきデータセット '%s' を設定:\n 値 = %s\n 対称誤差 = %s\n マイナス誤差 = %s\n プラス誤差 = %s",
+    " Where t goes form %g:%g in %i steps": " (t の範囲: %g 〜 %g, %i ステップ)",
+    "Set dataset (nD) '%s':\n Values = %s\n": "nDデータセット '%s' を設定:\n 値 = %s\n",
+    "Set dataset '%s' based on range:\n Number of steps = %i\n Range of data = %s\n Range of symmetric error = %s\n Range of positive error = %s\n Range of negative error = %s": "範囲に基づきデータセット '%s' を設定:\n ステップ数 = %i\n データ範囲 = %s\n 対称誤差範囲 = %s\n プラス誤差範囲 = %s\n マイナス誤差範囲 = %s",
+    "Set 2D dataset '%s' based on expressions\n expression = %s\n linked to expression = %s\n Made a dataset (%i x %i)": "数式に基づき2Dデータセット '%s' を設定\n 数式 = %s\n リンク数式 = %s\n データセットサイズ (%i x %i)",
+    "Made 2D dataset '%s' based on expressions:\n X expression = %s\n Y expression = %s\n Z expression = %s\n is linked to expression = %s\n Shape (%i x %i)": "数式に基づき2Dデータセット '%s' を作成:\n X数式 = %s\n Y数式 = %s\n Z数式 = %s\n リンク数式 = %s\n 形状 (%i x %i)",
+    "Set 2D dataset '%s' based on function of x and y\n X steps = %s\n Y steps = %s\n Expression = %s\n linked to expression = %s\n Made a dataset (%i x %i)": "xとyの関数に基づき2Dデータセット '%s' を設定\n Xステップ = %s\n Yステップ = %s\n 数式 = %s\n リンク数式 = %s\n データセットサイズ (%i x %i)",
+    "Set 2d dataset '%s'": "2Dデータセット '%s' を設定",
+    "Set text dataset '%s'\nValues = %s": "テキストデータセット '%s' を設定\n値 = %s",
+    "Applied tag %s to datasets %s": "データセット %s にタグ %s を適用しました",
+    "Filtered datasets %s using expression %s. Output prefix=%s, suffix=%s": "数式 %s を用いてデータセット %s をフィルタリングしました。出力プレフィックス=%s, サフィックス=%s",
+
+    # Contour
+    "Scaling between contour levels": "等高線レベル間のスケーリング方式",
+    "Scaling": "スケーリング",
+    "Levels to use for manual scaling": "手動スケーリングで使用するレベル値のリスト",
+    "Levels used in the plot": "プロットで使用されるレベル値",
+    "Output levels": "出力レベル",
+
+    # Covariance
+    "Number of line steps to draw": "描画する線のステップ数",
+    "Cov(Y,Y)": "Cov(Y,Y)",
+    "Cov(X,Y)": "Cov(X,Y)",
+    "Cov(Y,X)": "Cov(Y,X)",
+    "Cov(X,X)": "Cov(X,X)",
+
+    # CustomDialog
+    "Custom definitions": "カスタム定義",
+    "Definitions": "定義",
+    "Define constants and functions for use in expressions. Functions should be specified as f(x,y) to specify arguments. Functions and constants are evaluated in order.": "数式内で使用する定数および関数を定義します。関数は引数を指定して f(x,y) のように記述します。関数と定数は記述順に評価されます。",
+    "Python expression defining constant or function, e.g. \"x+y\"": "定数または関数を定義する Python 数式 (例: \"x+y\")",
+    "Module to import symbols from, e.g. \"scipy.special\"": "シンボルをインポートするモジュール名 (例: \"scipy.special\")",
+    "Comma-separated list of symbols to import or \"*\" to import everything": "インポートするシンボルのカンマ区切りリスト (すべてインポートする場合は \"*\")",
+    "Definition of color (\"#RRGGBB\", \"#RRGGBBAA\" or \"red\")": "色の定義 (\"#RRGGBB\", \"#RRGGBBAA\", または \"red\")",
+    "Definition of colormap, defined as lists of RGB tuples, e.g. \"((0,0,0),(255,255,255))\"": "カラーマップの定義 (RGBタプルのリスト、例: \"((0,0,0),(255,255,255))\")",
+    "Imports": "インポート",
+    "Define colormaps as (C1, C2, …) where CX is a color specified as (R,G,B) or (R,G,B,A), where R,G,B and A are integers between 0 and 255 (red, green, blue and alpha). Specify a stepped colormap using (-1,0,0,0) as the first entry.": "カラーマップを (C1, C2, …) として定義します。CX は (R,G,B) または (R,G,B,A) で指定される色です (0〜255の整数)。階段状カラーマップにする場合は第1エントリに (-1,0,0,0) を指定します。",
+    "Move up": "上へ移動",
+    "Move down": "下へ移動",
+    "Save definitions to a vsz script file": "定義を vsz スクリプトファイルに保存",
+    "Save…": "保存…",
+    "Load definitions from a vsz script file": "vsz スクリプトファイルから定義を読み込み",
+    "Load…": "読み込み…",
+
+    # DatasetBrowser
+    "Dataset browser": "データセットブラウザ",
+    "Copy data to clipboard": "データをクリップボードにコピー",
+    "Paste data from clipboard": "クリップボードからデータを貼り付け",
+    "Rename dataset": "データセット名の変更",
+    "Delete selected dataset": "選択したデータセットを削除",
+    "Create dataset": "データセットの作成",
+    "Filter datasets": "データセットの絞り込み",
+
+    # Dialogs & General UI
+    "Save changes to '%s'?": "'%s' への変更を保存しますか？",
+    "Discard changes": "変更を破棄",
+    "Don't Save": "保存しない",
+    "Overwrite existing file?": "既存のファイルを上書きしますか？",
+    "An error occurred while saving the file.": "ファイルの保存中にエラーが発生しました。",
+    "An error occurred while loading the file.": "ファイルの読み込み中にエラーが発生しました。",
+    "File format not recognized.": "ファイル形式が認識できません。",
+    "Select a file": "ファイルを選択",
+    "Select directory": "ディレクトリを選択",
+    "All supported files": "サポートされているすべてのファイル",
+    "Veusz documents (*.vsz)": "Veusz ドキュメント (*.vsz)",
+    "Text files (*.txt *.dat *.csv)": "テキストファイル (*.txt *.dat *.csv)",
+    "All files (*)": "すべてのファイル (*)",
+
+    # Tutorial
+    "Welcome to the Veusz tutorial!": "Veusz チュートリアルへようこそ！",
+    "This tutorial will guide you through the basics of creating graphs in Veusz.": "このチュートリアルでは、Veusz でグラフを作成する基本手順を順を追って説明します。",
+    "Click 'Next' to continue or 'Cancel' to exit.": "続行するには「次へ」を、終了するには「キャンセル」をクリックしてください。",
+    "Creating a plot": "プロットの作成",
+    "Adding data": "データの追加",
+    "Customizing appearance": "外観のカスタマイズ",
+    "Exporting your graph": "グラフのエクスポート",
+
+    # Settings & Widgets (XY, Bar, Key, Line, Shape, Image, etc.)
+    "Line style (linear/curved)": "線スタイル (直線 / 曲線)",
+    "Fill below curve": "曲線の下側を塗りつぶす",
+    "Fill above curve": "曲線の上側を塗りつぶす",
+    "Plot mode": "プロットモード",
+    "Error bar caps": "エラーバーのキャップ (終端横線)",
+    "Cap size": "キャップサイズ",
+    "Draw error bars": "エラーバーを描画",
+    "Horizontal error bars": "水平エラーバー",
+    "Vertical error bars": "垂直エラーバー",
+    "Positive error bars": "プラス側エラーバー",
+    "Negative error bars": "マイナス側エラーバー",
+    "Bar width": "バーの幅",
+    "Bar fill": "バーの塗りつぶし",
+    "Bar border": "バーの枠線",
+    "Stacked bars": "積み上げバー",
+    "Grouped bars": "グループ化バー",
+    "Key position": "凡例の位置",
+    "Key title": "凡例のタイトル",
+    "Key border": "凡例の枠線",
+    "Key fill": "凡例の塗りつぶし",
+    "Number of columns in key": "凡例の列数",
+    "Horizontal spacing in key": "凡例の水平間隔",
+    "Vertical spacing in key": "凡例の垂直間隔",
+}
+
+print("Loaded REMAINING_DICT")
